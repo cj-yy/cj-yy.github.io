@@ -31,6 +31,8 @@ Peking University Health Science Center, Beijing, China<br/></font>
 <script>
     function toggle(id,exp) {
         document.getElementById(id).style.display =exp?'block':'none';
+        document.getElementById('b'+'a' + id).style.display =exp?'block':'none';
+        document.getElementById('c'+'b'+'a' + id).style.display =exp?'block':'none';
         document.getElementById('a' + id).style.display = exp ? 'none' : 'inline';
     }
 </script>
