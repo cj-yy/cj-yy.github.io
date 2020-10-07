@@ -29,6 +29,22 @@ Peking University Health Science Center, Beijing, China<br/></font>
 <h1>Skills</h1>
 <hr width = 775px align = "left"/> 
 <p> <font size = "4.5">Violin,Sketch,Chemistry,Biology</p>
+<script>
+    function toggle(id,exp) {
+        document.getElementById(id).style.display =exp?'block':'none';
+        document.getElementById('a' + id).style.display = exp ? 'none' : 'inline';
+    }
+</script>
+<a href="javascript:toggle('detail',true)" id="adetail">展开1</a><br />
+<div id="detail" style="display:none">
+    详细内容1。。。。。。。
+    <div style="text-align:right"><a href="javascript:toggle('detail')">收起</a></div>
+</div>
+<a href="javascript:toggle('detail1',true)" id="adetail1">展开2</a><br />
+<div id="detail1" style="display:none">
+    详细内容2。。。。。。。
+    <div style="text-align:right"><a href="javascript:toggle('detail1')">收起</a></div>
+</div>
 
 <h1>Projects</h1>
 <hr width = 775px align = "left"/> 
