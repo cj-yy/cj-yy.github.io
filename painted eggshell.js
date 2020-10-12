@@ -1,6 +1,6 @@
 var e, i;
 
-e = document.getElementById("control");
+e = document.getElementById("control")
 
 i = 0;
 
