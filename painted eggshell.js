@@ -1,4 +1,4 @@
-var e,i;
+var e, i;
 
 e = document.getElementById("control")
 
