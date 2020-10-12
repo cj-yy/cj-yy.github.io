@@ -1,4 +1,5 @@
 var e,i;
+
 e = document.getElementById("control")
 
 i = 0;
